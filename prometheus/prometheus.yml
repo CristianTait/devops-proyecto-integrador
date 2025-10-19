@@ -21,3 +21,8 @@ scrape_configs:
       - targets:
           - localhost:9090
 
+  - job_name: fronted-scrap
+    metrics_path: /api/metrics
+    static_configs:
+      - targets:
+          - frontend:3000 # Frontend o host.docker.internal
