@@ -1,6 +1,7 @@
 # DevOps Proyecto Integrador
 
 Aplicación demo en Next.js 14 (React 18 + TypeScript) con Tailwind + shadcn/ui. Incluye monitoreo con Prometheus y Grafana vía Docker Compose.
+ Nombre: tech-store
 
 ## Requisitos rápidos
 - Node.js 18+ y npm
