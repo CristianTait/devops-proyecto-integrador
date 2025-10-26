@@ -4,7 +4,7 @@ import { register, collectDefaultMetrics } from "prom-client";
 // Register default metrics only once.
 // @ts-ignore
 if (!globalThis.metricsRegistered) {
-    const prefix = 'my_application_';
+    const prefix = 'TechStore_';
     collectDefaultMetrics({prefix });
     // @ts-ignore
     globalThis.metricsRegistered = true;
